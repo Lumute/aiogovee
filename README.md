@@ -64,14 +64,14 @@ The easiest way is to look at the __main__.py which is the demo utility included
 
 # Notes
 
-     - GoveeListener uses UDP broadcast for discovery
+1. GoveeListener uses UDP broadcast for discovery
 
-     - I only have 2 of the supported devices so I could not test with any other but the API is really simple and they all should work the same, these are the devices I have tested with:
+2. I only have 2 of the supported devices so I could not test with any other but the API is really simple and they all should work the same, these are the devices I have tested with:
 
-          - H6061 - Glide Hexa Light Panels
-          - H6172 - RGBIC Outdoor LED Strip Lights
+     - H6061 - Glide Hexa Light Panels
+     - H6172 - RGBIC Outdoor LED Strip Lights
 
-     - This is my first time coding in Python and my first project published in GitHub and PyPI, if you notice I did anything wrong, please point it out to me, it has been a great learning experience.
+3. This is my first time coding in Python and my first project published in GitHub and PyPI, if you notice I did anything wrong, please point it out to me, it has been a great learning experience.
 
 
 # Thanks
