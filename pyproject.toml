@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiogovee"
+version = "0.1.2"
+authors = [
+  { name="Gonzalo Parra", email="gaparra@gmail.com" },
+]
+description = "Python 3 /asyncio library for communication with Govee devices using their local API"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "ifaddr",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Lumute/aiogovee"
+"Bug Tracker" = "https://github.com/Lumute/aiogovee/issues"
