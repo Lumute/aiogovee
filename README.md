@@ -4,7 +4,7 @@ Python 3 /asyncio library for communication with Govee devices using their local
 
 [![PyPI version](https://img.shields.io/pypi/v/aiogovee)](https://pypi.python.org/pypi/aiogovee)
 [![PyPI version](https://img.shields.io/pypi/pyversions/aiogovee)](https://pypi.python.org/pypi/aiogovee)
-[![license](https://img.shields.io/github/license/lumute/aiogovee)](https://github.com/Lumute/aiogovee/blob/master/LICENSE.txt)
+[![license](https://img.shields.io/badge/license-MIT/Apache%202.0-blue?style=flat-square)](https://github.com/Lumute/aiogovee/blob/master/LICENSE.txt)
 
 This is my first time coding in Python, this library was written using François Wautier's [aiolifx](https://github.com/frawau/aiolifx) as sample / guide and adapted to communicate with the much simpler [Govee Local API](https://app-h5.govee.com/user-manual/wlan-guide?updateTime=181)
 
@@ -61,6 +61,19 @@ Once a device is registered, there are attribute methods for any of the supporte
 
 The easiest way is to look at the __main__.py which is the demo utility included as an example of how to use the library.
 
+
+# Notes
+
+     - GoveeListener uses UDP broadcast for discovery
+
+     - I only have 2 of the supported devices so I could not test with any other but the API is really simple and they all should work the same, these are the devices I have tested with:
+
+          - H6061 - Glide Hexa Light Panels
+          - H6172 - RGBIC Outdoor LED Strip Lights
+
+     - This is my first time coding in Python and my first project published in GitHub and PyPI, if you notice I did anything wrong, please point it out to me, it has been a great learning experience.
+
+
 # Thanks
 
-Thanks to François Wautier, his aiolifx library which provided a great learning resource and base for this project.
+Thanks to François Wautier, his aiolifx library which provided to be an excellent resource and base for this project.
