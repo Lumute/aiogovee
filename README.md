@@ -73,6 +73,12 @@ The easiest way is to look at the __main__.py which is the demo utility included
 
 3. This is my first time coding in Python and my first project published in GitHub and PyPI, if you notice I did anything wrong, please point it out to me, it has been a great learning experience.
 
+# Working Devices
+
+     - H6076 - Floor Standing Lamp
+     - H6076 - M1 LED Strip 5m
+     - H6061 - Glide Hexa Light Panels
+     - H6172 - RGBIC Outdoor LED Strip Lights
 
 # Thanks
 
